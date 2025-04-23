@@ -1,9 +1,13 @@
 @use '_hero';
+@use './components/_infos-bar';
+@use './components/_buttons';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
+    list-style: none;
 }
 
 .container{
