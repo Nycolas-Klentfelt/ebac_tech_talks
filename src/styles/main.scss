@@ -2,12 +2,13 @@
 @use './components/_infos-bar';
 @use './components/_buttons';
 @use '_event';
+@use '_variables';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: variables.$textColor;
     list-style: none;
 }
 
